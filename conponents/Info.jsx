@@ -1,17 +1,14 @@
 import React from "react";
+import profilePic from "../src/assets/profile.jpg"; // Ensure you have a profile picture in the assets folder
 
 const Info = () => {
   return (
     <>
-      <img
-        src="../public/profile.jpg"
-        alt="Profile"
-        className="profile-image"
-      />
+      <img src={profilePic} alt="Profile" className="profile-image" />
       <div className="info">
         <h1 className="name">Gang Luo</h1>
         <h3 className="title">Fullstack Developer</h3>
-        <a href="https://www.google.com">Portfolio</a>
+        <a href="#">Portfolio</a>
         <div className="buttons">
           <button type="button">
             <svg
